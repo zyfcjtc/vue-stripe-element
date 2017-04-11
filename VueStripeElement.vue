@@ -21,10 +21,12 @@
 <script>
 	export default {
 		mounted() {
-
+			this.loadStripeElement();
 		},
 		data: function() {
-
+			return {
+				
+			}
 		},
 		method: {
             loadStripeElement: function(public_key){
