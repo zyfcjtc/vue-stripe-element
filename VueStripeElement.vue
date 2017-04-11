@@ -25,11 +25,12 @@
 		},
 		data: function() {
 			return {
-				
+				token: '',
 			}
 		},
 		method: {
             loadStripeElement: function(public_key){
+            	var vm = this;
 				// Create a Stripe client
 				var stripe = Stripe('pk_test_6pRNASCoBOKtIshFeQd4XMUh');
 
@@ -84,6 +85,7 @@
 						} else {
 							// Send the token to your server
 							console.log(result.token);
+							vm.token = result.token;
 						}
 					});
 				});
