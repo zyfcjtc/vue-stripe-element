@@ -25,11 +25,6 @@
 		mounted() {
 			this.loadStripeElement();
 		},
-		data () {
-			return {
-				token: ''
-			}
-		},
 		method: {
             loadStripeElement: function(public_key){
             	var vm = this;
