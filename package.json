@@ -1,0 +1,16 @@
+{
+  "name": "vue-stripe-element",
+  "version": "1.0.0",
+  "description": "An stripe element component for Vue.js",
+  "main": "VueStripeElement.vue",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Stripe",
+    "vue",
+    "element"
+  ],
+  "author": "Yafan Zhang",
+  "license": "MIT"
+}
