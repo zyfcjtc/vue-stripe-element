@@ -20,12 +20,14 @@
 
 <script>
 	export default {
+
+
 		mounted() {
 			this.loadStripeElement();
 		},
-		data: function() {
+		data () {
 			return {
-				token: '',
+				token: ''
 			}
 		},
 		method: {
